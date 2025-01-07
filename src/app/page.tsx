@@ -1,30 +1,37 @@
-
 import BannerImage from "./components/banner-image";
-
-
+import GalleryImage from "./components/gallery-image";
 
 export default function Home() {
-
-  // window.onload = function() {
-  //   banner_image();
-  // };
-  
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      
+    <div className="items-center justify-items-center min-h-screen pt-8 pb-20 gap-16 font-[family-name:var(--font-geist-sans)]">
       {/* Opening Title and Banner */}
-      <div className="flex flex-col space-y-4">
+      <div className="flex flex-col">
         <div>
-          <h1 className="flex p-2">Image Arcade</h1>
+          <h1 className="flex justify-center font-normal text-4xl subpixel-antialiased text-green-700">Image Arcade</h1>
         </div>
-        <div className="flex p-2">
+        <div className="object-fill">
           <BannerImage />
         </div>
       </div>
 
       {/* Display API Image  */}
-      <div></div>
-
+      <div className="flex flex-col p-40">
+        <div className="ml-auto ">
+          <GalleryImage />
+        </div>
+        <div className="">
+          <GalleryImage />
+        </div>
+        <div className="ml-auto ">
+          <GalleryImage />
+        </div>
+        <div className="">
+          <GalleryImage />
+        </div>
+        <div className="ml-auto ">
+          <GalleryImage />
+        </div>
+      </div>
     </div>
   );
 }

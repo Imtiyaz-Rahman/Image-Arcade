@@ -6,7 +6,7 @@ export default function GalleryImage() {
     let random = Math.random();
     const banner = "https://picsum.photos/550/700/?random&rnd="+random;
     // const banner = "https://picsum.photos/550/700/?random&rnd="+new Date().getTime();
-    // const banner = "https://picsum.photos/550/700?<rand>";
+    // const banner = "https://picsum.photos/550/700";
 
   fetch(banner).then((res) => {
     if (res.ok) {
@@ -21,7 +21,7 @@ export default function GalleryImage() {
 
   return (
     <div>
-      <img src={banner} alt="API Image" />
+      <img className="border-4" src={banner} alt="API Image" />
     </div>
   );
 }

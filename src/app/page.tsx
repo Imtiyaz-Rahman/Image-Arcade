@@ -16,19 +16,19 @@ export default function Home() {
 
       {/* Display API Image  */}
       <div className="flex flex-col p-40">
-        <div className="ml-auto ">
+        <div className="ml-auto">
           <GalleryImage />
         </div>
         <div className="">
           <GalleryImage />
         </div>
-        <div className="ml-auto ">
+        <div className="ml-auto">
           <GalleryImage />
         </div>
         <div className="">
           <GalleryImage />
         </div>
-        <div className="ml-auto ">
+        <div className="ml-auto">
           <GalleryImage />
         </div>
       </div>

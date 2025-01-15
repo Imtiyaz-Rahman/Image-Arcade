@@ -1,5 +1,6 @@
 import BannerImage from "./components/banner-image";
 import GalleryImage from "./components/gallery-image";
+import RefreshButton from "./components/refresh-button";
 
 export default function Home() {
   return (
@@ -31,6 +32,23 @@ export default function Home() {
         <div className="ml-auto">
           <GalleryImage />
         </div>
+        <div className="">
+          <GalleryImage />
+        </div>
+        <div className="ml-auto">
+          <GalleryImage />
+        </div>
+        <div className="">
+          <GalleryImage />
+        </div>
+        <div className="ml-auto">
+          <GalleryImage />
+        </div>
+      </div>
+
+      {/* Refresh Button */}
+      <div>
+        <RefreshButton />
       </div>
     </div>
   );

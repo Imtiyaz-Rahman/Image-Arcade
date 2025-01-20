@@ -1,6 +1,6 @@
-import BannerImage from "./components/banner-image";
-import GalleryImage from "./components/gallery-image";
-import RefreshButton from "./components/refresh-button";
+import BannerImage from "./components/banner-image.jsx";
+import GalleryImage from "./components/gallery-image.jsx";
+import RefreshButton from "./components/refresh-button.jsx";
 
 export default function Home() {
   return (

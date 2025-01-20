@@ -11,14 +11,12 @@ export default function GalleryImage() {
   fetch(banner).then((res) => {
     // Collecting the results from the API and creating a results check
     if (res.ok) {
-      // A response will be provided in the console every time the component is called
       console.log("API Image SUCCESS");
-      console.log(banner);
-
+      // A response will be provided in the console every time the component is called
     
     } else {
-      // An else  will show if the API was unable to be called
       console.log("API Image Not Successful");
+      // An else  will show if the API was unable to be called
     }
   });
 

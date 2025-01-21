@@ -59,14 +59,12 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ### Git Pages
 The site is also accessible with the use of Github pages [Image Arcade](https://imtiyaz-rahman.github.io/Image-Arcade/) 
 
-Image Collection
-![Initial Development Of Kanban](image.png)
 
 
 ## Project Plan 
 
 Systems such as Kanban have played a key role in supporting the process of production development from large scale to personal projects. 
-Kanban is a system that helps to ensure that production in one area is only allowed if the next stream of production has a demand for new work, allowing processes to be controlled by the entire team. 
+Kanban is a system that helps to ensure that production in one area is only allowed if the next stream of production has a demand for new work, allowing processes to be controlled by the entire team (Ríos-Mercado and Ríos-Solís, 2012).
 The project used Kanban to control the overall flow of work. This was done along with the process of Agile where features were tested and ideas were pushed to see different outcomes of the final service.
 
 The use of the Github project board, as shown in the example below, was an effective tool to understand the tasks that needed to be completed and provided an area to group the different tasks within their respective categories. 
@@ -163,17 +161,16 @@ The built application makes use of Nextjs, a full stack framework that allows th
 
 ### File and Naming convention
 
-When trying to create the naming convention of the file system, using the Google naming scheme where it was suggested to have file names that were all lower case and some may have underscores or dashes. The scheme was helpful as it allowed a standardised naming convention making it easier to manage files. This practice would also apply to different variables within the code to keep it consistent, this only excluded functions as they were applied with Pascal case. The reason for Pascal case was to make it easier to differentiate between the variables and functions within the code. A reason for not using alternative conventions was because functions would fail if camel case or an alternative method of snake case was applied when exporting the function. Overall, the convention used made the code easier to read and understand.
+When trying to create the naming convention of the file system, using the Google naming scheme where it was suggested to have file names that were all lower case and some may have underscores or dashes(Google,n.d). The scheme was helpful as it allowed a standardised naming convention making it easier to manage files. This practice would also apply to different variables within the code to keep it consistent, this only excluded functions as they were applied with Pascal case. The reason for Pascal case was to make it easier to differentiate between the variables and functions within the code. A reason for not using alternative conventions was because functions would fail if camel case or an alternative method of snake case was applied when exporting the function. Overall, the convention used made the code easier to read and understand.
 
-![Pascal Case Example]()
+![Pascal Case Example](readme-images/code-pascal-case.png)
 
 
 
 ### Commenting
 Comments can be extremely helpful for code, within Image Arcade there were no general standards. Comments were treated as blocks that would be embedded to break up large chunks of code into sections, along with explaining what a section of code would do. When explaining logic such as a variable call or function, comments are presented at the bottom to allow the user to understand the code first and then read the details provided. However, this convention is not applied to frontend code as a general description is provided to a user, instead it prevents them from having to understand aspects such as tail wind styling that has been applied.
 
-![Commenting Example]()
-
+![Commenting Example](readme-images/code-commenting.png)
 
 
 ## Conclusion
@@ -182,4 +179,17 @@ Overall, Image Arcade works as an effective service for the time being. However,
 
 
 ## References
+
+https://www.youtube.com/watch?v=Sklc_fQBmcs 
+https://google.github.io/styleguide/jsguide.html#file-name 2.1
+https://youtu.be/zpphULkLr3Y?si=AphGWaSS9u20xJVH 
+
+Fireship. (2021) *Next.js in 100 Seconds // Plus Full Beginner's Tutorial* [online]. YouTube. Available at: https://www.youtube.com/watch?v=Sklc_fQBmcs (Accessed: 2 January 2025)
+
+TypeScript with Benny Code. (2023) *What is TypeScript?* [online]. YouTube. Available at: https://www.youtube.com/watch?v=zpphULkLr3Y (Accessed: 3 January 2025)
+
+Google (n.d.) *Google JavaScript Style Guide* [online]. Available at: https://google.github.io/styleguide/jsguide.html#file-name (Accessed: 8 January 2025)
+
+Ríos-Mercado, R. and Ríos-Solís, Y. (2012) ‘Just-in-time systems’, *Springer*, 60(), pp.192 [online]. Available at: https://onesearch.library.northeastern.edu/discovery/fulldisplay?docid=alma9934783320001401&context=L&vid=01NEU_INST:NU_US&lang=en&search_scope=CDI_and_EResources&adaptor=Local%20Search%20Engine&tab=Everything&query=any,contains,Kanban&searchInFulltext=false 
+
 

@@ -1,6 +1,11 @@
 # Table of Contents
-1.
-2.
+1. [Introduction](#introduction)
+2. [Image Arcade](#image-arcade)
+3. [Project Plan](#project-plan)
+4. [Design plan](#design-plan)
+5. [Code development](#code-development)
+6. [Conclusion](#conclusion)
+7. [References](#references)
 
 ## Introduction
 
@@ -168,21 +173,19 @@ When trying to create the naming convention of the file system, using the Google
 
 
 ### Commenting
+
 Comments can be extremely helpful for code, within Image Arcade there were no general standards. Comments were treated as blocks that would be embedded to break up large chunks of code into sections, along with explaining what a section of code would do. When explaining logic such as a variable call or function, comments are presented at the bottom to allow the user to understand the code first and then read the details provided. However, this convention is not applied to frontend code as a general description is provided to a user, instead it prevents them from having to understand aspects such as tail wind styling that has been applied.
 
 ![Commenting Example](readme-images/code-commenting.png)
 
 
 ## Conclusion
+
 Overall, Image Arcade works as an effective service for the time being. However, there are adjustments that can be made to improve its function, such as restricting the use of static images to a certain size, which is problematic as the site is designed for a 1080p resolution, but if a user has a different resolution, then the site will look odd. A future improvement would be to make the site more accessible and user friendly as it does not provide information to the user about what it does or provide colour blind friendly colours. Another aspect that could be improved is to make the service mobile friendly, this will help to improve the user experience when trying to use the service.
 
 
 
 ## References
-
-https://www.youtube.com/watch?v=Sklc_fQBmcs 
-https://google.github.io/styleguide/jsguide.html#file-name 2.1
-https://youtu.be/zpphULkLr3Y?si=AphGWaSS9u20xJVH 
 
 Fireship. (2021) *Next.js in 100 Seconds // Plus Full Beginner's Tutorial* [online]. YouTube. Available at: https://www.youtube.com/watch?v=Sklc_fQBmcs (Accessed: 2 January 2025)
 

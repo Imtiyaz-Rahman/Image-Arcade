@@ -68,6 +68,10 @@ The site is also accessible with the use of Github pages [Image Arcade](https://
 ### Git Project Board
 This will show the overview of the [Git Project Board](https://github.com/users/Imtiyaz-Rahman/projects/2)
 
+### Example Image of Website
+
+![Image Arcade Example Picture](readme-images/image-arcade-example.png)
+
 
 
 ## Project Plan 

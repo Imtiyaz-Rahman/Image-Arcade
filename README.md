@@ -85,7 +85,7 @@ Figure 1 (Not Completed Board)
 
 Figure 2 (Completed Board)
 
-![Kanban board categories completed](readme-images/kanban-completed.png)
+![Kanban board categories completed](readme-images/kanban-progress2.png)
 
 
 ### Category system

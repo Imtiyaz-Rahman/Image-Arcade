@@ -19,7 +19,8 @@ The purpose of this services is to allow the user to run the service and see a c
 
 The user is able to actively refresh the page and get a new style of images.
 
-The services used: 
+The services used:
+- [Git Repo Link](https://github.com/Imtiyaz-Rahman/Image-Arcade) a platform to store and share code and hold the location of the Image Arcade
 - [Next.js](https://nextjs.org/) an open source framework used to build web applications 
 - [Picsum](https://picsum.photos/) A placeholder free image site (The Lorem Ipsum for photos)
 
@@ -38,7 +39,7 @@ v20.11.0
 
 First, go to the correct directory (you will need to be in the same location as the package.json):
 ```bash
-cd image-gallery
+cd Image-Arcade
 ```
 
 Second, install the packages:
@@ -62,7 +63,10 @@ bun dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ### Git Pages
-The site is also accessible with the use of Github pages [Image Arcade](https://imtiyaz-rahman.github.io/Image-Arcade/) 
+The site is also accessible with the use of Github pages [Image Arcade](https://imtiyaz-rahman.github.io/Image-Arcade/)
+
+### Git Project Board
+This will show the overview of the [Git Project Board](https://github.com/users/Imtiyaz-Rahman/projects/2)
 
 
 
@@ -72,10 +76,16 @@ Systems such as Kanban have played a key role in supporting the process of produ
 Kanban is a system that helps to ensure that production in one area is only allowed if the next stream of production has a demand for new work, allowing processes to be controlled by the entire team (Ríos-Mercado and Ríos-Solís, 2012).
 The project used Kanban to control the overall flow of work. This was done along with the process of Agile where features were tested and ideas were pushed to see different outcomes of the final service.
 
-The use of the Github project board, as shown in the example below, was an effective tool to understand the tasks that needed to be completed and provided an area to group the different tasks within their respective categories. 
+The use of the Github project board, as shown in figure 1 and figure 2, was an effective tool to understand the tasks that needed to be completed and provided an area to group the different tasks within their respective categories. 
+
+Figure 1 (Not Completed Board)
 
 ![Kanban board categories](readme-images/kanban-progress1.png)
 
+
+Figure 2 (Completed Board)
+
+![Kanban board categories completed](readme-images/kanban-completed.png)
 
 
 ### Category system
@@ -88,15 +98,21 @@ Once ideas are confirmed in the Kanban board, they are taken from the Icebox and
 
 ### Ticketing method
 
-The ticketing system is an important aspect of many projects. Effective tickets can help to ensure that a desired feature or other can be explained and created within the project. The Image Arcade Board applies the use of having simple information allowing the user to get details by looking at the description. From the figure provided below the ticketing standard that took place was to provide a simple and easy to read ticket that allowed a user to easily skim and understand the information. For example, the "Feature:" tag that would be added to the title of a ticket to indicate that it is a feature, this convention would also apply to bug tickets that have been created. Finally, there is a green dot above the ticket, this is used when expressing that something is being converted to an issue, however in this case it is used to show current features that are being implemented within the Image Arcade website.
+The ticketing system is an important aspect of many projects. Effective tickets can help to ensure that a desired feature or other can be explained and created within the project. The Image Arcade Board applies the use of having simple information allowing the user to get details by looking at the description. From the figure 3 provided below the ticketing standard that took place was to provide a simple and easy to read ticket that allowed a user to easily skim and understand the information. For example, the "Feature:" tag that would be added to the title of a ticket to indicate that it is a feature, this convention would also apply to bug tickets that have been created. Finally, there is a green dot above the ticket, this is used when expressing that something is being converted to an issue, however in this case it is used to show current features that are being implemented within the Image Arcade website.
+
+Figure 3
 
 ![Kanban Ticket](readme-images/kanban-feature.png)
 
-Looking specifically at the description section of the Image Arcade Board, instructions are provided to help understand the process of resolving the ticket, such as providing a "Description:" this provides the general overview of the ticket and what needs to be done. Then providing an "Objective:" which helps to express what needs to be completed in a simple format that can be reviewed, as shown in the example below.
+Looking specifically at the description section of the Image Arcade Board, instructions are provided to help understand the process of resolving the ticket, such as providing a "Description:" this provides the general overview of the ticket and what needs to be done. Then providing an "Objective:" which helps to express what needs to be completed in a simple format that can be reviewed, as shown in Figure 4.
+
+Figure 4
 
 ![Kanban Ticket Description](readme-images/kanban-description.png)
 
-This process also applies to bugs, as a description is provided along with a potential image to show the problem in a visual format. If a fix exists, then further down the ticket description it would have a "fixed" tag, a summary of the problem would be explained along with how it was resolved, as shown below.
+This process also applies to bugs, as a description is provided along with a potential image to show the problem in a visual format. If a fix exists, then further down the ticket description it would have a "fixed" tag, a summary of the problem would be explained along with how it was resolved, as shown in Figure 5.
+
+Figure 5
 
 ![kanban description](readme-images/kanban-bug-description.png)
 
@@ -108,7 +124,9 @@ Designs are an important aspect of many projects, helping to create the desired 
 
 ### Mood board
 
-When developing the look of the Image Arcade, a lot of effort was put into creating the initial idea, such as the use of the mood board as shown in the image below. This mood board was a collection of different images from other websites that were presented on the [awwwards](https://www.awwwards.com/) website that showcase unique and interesting sites, creating inspiration for the Image Arcade. The images help to understand the overall design, as the intention would be to use an API to display interesting images to the user.
+When developing the look of the Image Arcade, a lot of effort was put into creating the initial idea, such as the use of the mood board as shown in Figure 6. This mood board was a collection of different images from other websites that were presented on the [awwwards](https://www.awwwards.com/) website that showcase unique and interesting sites, creating inspiration for the Image Arcade. The images help to understand the overall design, as the intention would be to use an API to display interesting images to the user.
+
+Figure 6
 
 ![Mood board](readme-images/figma-moodboard.png)
 
@@ -118,9 +136,11 @@ When developing the look of the Image Arcade, a lot of effort was put into creat
 
 Prototypes are a necessary aspect to understand the approach that would be taken, due to the short deadline of the project the best approach was to test ideas within the design software rather than the code base of the Image Arcade to avoid wasting time. The design platform Figma was used because of its easy-to-understand design tools allowing designs to be created and refined.
 
-The approach to the design was to base the concepts on the mood board whilst making adjustments, as shown in the figure below. This was helpful as it gave an idea of the desired look when creating the site, along with certain features that could be taken from the mood board and implemented within the designs.
+The approach to the design was to base the concepts on the mood board whilst making adjustments, as shown in Figure 7. This was helpful as it gave an idea of the desired look when creating the site, along with certain features that could be taken from the mood board and implemented within the designs.
 
 Another aspect that was taken into consideration for the design of the site was the use of a colour palette generator. A site called [coolors](https://coolors.co/) helped to generate colour palettes that worked well together, preventing heavy amounts of testing to find the desired colour scheme. From the prototype image provided, each of the different designs have a colour palette next to them and each of the different colours were tested. This helped to select the best website layout with the desired colour scheme for the design.
+
+Figure 7
 
 ![Design Prototypes](readme-images/figma-prototype.png)
 
@@ -128,9 +148,11 @@ Another aspect that was taken into consideration for the design of the site was 
 
 ### High Level Designs 
 
-Expanding on the design prototype, the use of high level designs help to give an accurate view of what would be desired within the look and feel of the website. In comparison to the prototype models they do not contain in depth details but can be used to further enhance concepts, such as the figure shown below. Taking the initial design prototype and adding the images that would be presented into the actual design helped to create a template, when building the website.
+Expanding on the design prototype, the use of high level designs help to give an accurate view of what would be desired within the look and feel of the website. In comparison to the prototype models they do not contain in depth details but can be used to further enhance concepts, such as Figure 8. Taking the initial design prototype and adding the images that would be presented into the actual design helped to create a template, when building the website.
 
 Another aspect that was used with the high level design was to test new features on the prototype, this helped to show how new features would look. This process of experimentation helped to act as a template to be used when implementing the design into code.
+
+Figure 8
 
 ![High Level Designs](readme-images/figma-highlevel.png)
 
@@ -144,7 +166,9 @@ Coding is a fundamental aspect within projects and allows the creation of differ
 
 ### Architecture
 
-The initial code was based on the architecture to understand the general flow of how assets would connect, specifically the APIs connection as provided from the figure below. It shows a general view of how the connection would occur where the user would send a request to view the website, a request is sent to the API to receive and then present the data on the website. When building the service, the general layout is shown and more complex features would be placed as components, this helped to provide clear and easier to read code. Due to the lack of components, there was no need for a large folder convention when trying to sort the components. 
+The initial code was based on the architecture to understand the general flow of how assets would connect, specifically the APIs connection as provided from Figure 9. It shows a general view of how the connection would occur where the user would send a request to view the website, a request is sent to the API to receive and then present the data on the website. When building the service, the general layout is shown and more complex features would be placed as components, this helped to provide clear and easier to read code. Due to the lack of components, there was no need for a large folder convention when trying to sort the components.
+
+Figure 9
 
 ![Architecture Design](readme-images/figma-architecture.png)
 
@@ -152,7 +176,9 @@ The initial code was based on the architecture to understand the general flow of
 
 ### API testing
 
-Testing is important and can help to ensure that a service works. Within the image arcade, testing was done to find the desired image API, which was necessary as it showed how the different APIs would work and prevented wasted effort being put in due to an API's limitations within the final service. In the diagram below and [image-API-tests](tests/image-API-tests.ipynb), the use of Jupyter notebooks was applied allowing for a controlled environment, making it easier to test. Along with this, test cases could be easily implemented to see the function and output of the different APIs, ensuring that the desired API could be selected.
+Testing is important and can help to ensure that a service works. Within the image arcade, testing was done to find the desired image API, which was necessary as it showed how the different APIs would work and prevented wasted effort being put in due to an API's limitations within the final service. In Figure 10 and [image-API-tests](tests/image-API-tests.ipynb), the use of Jupyter notebooks was applied allowing for a controlled environment, making it easier to test. Along with this, test cases could be easily implemented to see the function and output of the different APIs, ensuring that the desired API could be selected.
+
+Figure 10
 
 ![API Tests File](readme-images/notebook-API-test.png)
 
@@ -168,6 +194,8 @@ The built application makes use of Nextjs, a full stack framework that allows th
 
 When trying to create the naming convention of the file system, using the Google naming scheme where it was suggested to have file names that were all lower case and some may have underscores or dashes(Google,n.d). The scheme was helpful as it allowed a standardised naming convention making it easier to manage files. This practice would also apply to different variables within the code to keep it consistent, this only excluded functions as they were applied with Pascal case. The reason for Pascal case was to make it easier to differentiate between the variables and functions within the code. A reason for not using alternative conventions was because functions would fail if camel case or an alternative method of snake case was applied when exporting the function. Overall, the convention used made the code easier to read and understand.
 
+Figure 11
+
 ![Pascal Case Example](readme-images/code-pascal-case.png)
 
 
@@ -175,6 +203,8 @@ When trying to create the naming convention of the file system, using the Google
 ### Commenting
 
 Comments can be extremely helpful for code, within Image Arcade there were no general standards. Comments were treated as blocks that would be embedded to break up large chunks of code into sections, along with explaining what a section of code would do. When explaining logic such as a variable call or function, comments are presented at the bottom to allow the user to understand the code first and then read the details provided. However, this convention is not applied to frontend code as a general description is provided to a user, instead it prevents them from having to understand aspects such as tail wind styling that has been applied.
+
+Figure 12
 
 ![Commenting Example](readme-images/code-commenting.png)
 

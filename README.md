@@ -6,6 +6,7 @@
 5. [Code development](#code-development)
 6. [Conclusion](#conclusion)
 7. [References](#references)
+8. [Github Repository Of Image Arcade](https://github.com/Imtiyaz-Rahman/Image-Arcade)
 
 ## Introduction
 
@@ -20,7 +21,7 @@ The purpose of this services is to allow the user to run the service and see a c
 The user is able to actively refresh the page and get a new style of images.
 
 The services used:
-- [Git Repo Link](https://github.com/Imtiyaz-Rahman/Image-Arcade) a platform to store and share code and hold the location of the Image Arcade
+- [Git Repo Link](https://github.com/Imtiyaz-Rahman/Image-Arcade) a platform to store and share code and holds the location of the Image Arcade
 - [Next.js](https://nextjs.org/) an open source framework used to build web applications 
 - [Picsum](https://picsum.photos/) A placeholder free image site (The Lorem Ipsum for photos)
 
